@@ -5,7 +5,7 @@
  * @c: input number.
  * Return: 1 if it is a number, 0 in other case.
  */
-int _isdigit(int c)
+int _isdigit(int c);
 {
 	if (c >= '0' && c <= '9')
 	{
